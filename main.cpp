@@ -10,8 +10,11 @@ int main() {
     TSP* test2 = new TSPNNH();
     test->graph.readFile("test.txt");
     test->graph.createGraph();
-    test->findOptimalPath();
 
+    test->RunTimeAnalysisOptimalPath();
+    test2->graph.readFile("test.txt");
+    test2->graph.createGraph();
+    test2->RunTimeAnalysisOptimalPath();
     return 0;
 
 

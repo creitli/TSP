@@ -15,6 +15,7 @@ class TSP {
     public:
     //pure virtual function, Implementierung erfolgt in den Subklassen
     virtual void findOptimalPath() = 0;
+    void RunTimeAnalysisOptimalPath();
     Graph graph;
     vector<int> optimalPath;
     float distanceOptimalPath;
