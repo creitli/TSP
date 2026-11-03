@@ -4,7 +4,7 @@
 
 #ifndef TSP_TSPENUM_H
 #define TSP_TSPENUM_H
-#include "tsp.h"
+#include "TSP.h"
 
 
 class TSPEnum: public TSP {
